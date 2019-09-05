@@ -4,6 +4,7 @@ import { InjectModel } from '@nestjs/mongoose';
 
 import { Food } from './interfaces/food.interface';
 import { CreateFoodDto } from './dto/create-food-dto';
+import { FoodsGateway } from './foods-gateway.gateway';
 
 @Injectable()
 export class FoodsService {
